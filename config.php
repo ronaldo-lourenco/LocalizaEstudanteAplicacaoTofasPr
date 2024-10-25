@@ -29,7 +29,7 @@ define("BLOB", BASEPATH."blob/") ;
 define("CLASSESPATH", BASEPATH."classes/") ;
 define("MODULOSPATH", BASEPATH."modulos/") ;
 define("FUNCOESPATH", BASEPATH."funcoes.php") ;
-define("CSSPATH", BASEURL."css/") ;
+define("CSSPATH", BASEURL) ;
 define("JSPATH", BASEURL."js/") ;
 
 //banco de dados

@@ -2,6 +2,16 @@
 require_once('config.php') ;
 protegeArquivo(basename(__FILE__)) ;
 
+function loadCSS($arquivo=NULL,$media='screen',$import=FALSE){
+	if ($arquivo != NULL):
+	    if ($import==TRUE):
+		    echo '<style type="text/css">@import url("'.CSSPATH.$arquivo.'.css");</style>'."\n        " ;
+		else:
+			echo '<link rel="stylesheet" type="text/css" href="'.CSSPATH.$arquivo.'.css" media="'.$media.'" />'."\n        " ;	
+		endif ;
+	endif ;	
+}//loadCSS
+
 function printMSG($msg=NULL, $tipo=NULL, $Botao1=NULL, $Botao2=NULL){
 	if ($msg!=NULL):
 		//$msg = utf8_decode($msg) ;

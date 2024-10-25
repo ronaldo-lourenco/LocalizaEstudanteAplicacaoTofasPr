@@ -34,7 +34,8 @@ require_once('conexao.php') ;
 		
 		<link rel="shortcut icon" href="image/favicon.ico" />
 		<?php
-/*
+        loadCSS('style') ;
+		/*
 		loadCSS('reset') ;
 		loadCSS('style') ;
 		loadJS('jquery') ;  
@@ -46,13 +47,13 @@ require_once('conexao.php') ;
 	</head>
 
 	<body>
-		<h1>TOFAS MARINGÁ - PR</h1>
-		<h2>Estudante:</h2>
-		<form action="">
+		<h1 align="center">TOFAS MARINGÁ - PR</h1>
+		<h2 align="left">Estudante:</h2>
+		<form align="center" action="">
 			<input name="busca" placeholder="Digite seu email @escola" type="text">
 			<button type="subimit">Pesquisar</button>
 		</form>	
-		<table border=1>
+		<table width="600px" align=center border=1>
 			<tr>
 				<th>Level 2</th>
 			</tr>
