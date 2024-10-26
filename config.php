@@ -3,11 +3,11 @@ protegeArquivo(basename(__FILE__)) ;
 
 $incluiu_estilo = FALSE ;
 
-$DB_HOST = $_ENV("DB_HOST") ;
-$DB_USER = $_ENV("DB_USER") ;
-$DB_PASSWORD = $_ENV("DB_PASSWORD") ;
-$DB_NAME = $_ENV("DB_NAME") ;
-$DB_PORT = $_ENV("DB_PORT") ;
+$DB_HOST = "sql10.freemysqlhosting.net" ;//$_ENV("DB_HOST") ;
+$DB_USER = "sql10740797" ;//$_ENV("DB_USER") ;
+$DB_PASSWORD = "gW9ntx4l4e" ;//$_ENV("DB_PASSWORD") ;
+$DB_NAME = "sql10740797" ;//$_ENV("DB_NAME") ;
+$DB_PORT = "3306" ;//$_ENV("DB_PORT") ;
 define("MASKCPF", "999.999.999-99") ;
 define("MASKCNPJ", "99.999.999/9999-99") ;
 define("MASKFONE", "(99) 9999-9999") ;
